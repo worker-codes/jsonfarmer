@@ -53,7 +53,6 @@ const query = /* GraphQL */ `
     }
   }
 }
-
 `;
 
 //generate JSON To variable
