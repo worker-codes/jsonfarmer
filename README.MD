@@ -29,29 +29,30 @@ yarn add jsonfarmer
 let { generate, savetoFile } = require('jsonfarmer');
 
 const query = /* GraphQL */ `
-    {
-        suppliers @repeat(min: 1, max: 1) {
-            companyName: company
-            contactName: findName
-            contactTitle: jobTitle
-            email: email
-            city: city
-            state: state
-            country: country
-            phone: phone
-            fax: phone
-            products {
-                create @repeat(min: 5, max: 15){
-                    name: productName
-                    unitPrice: price
-                    color: color
-                    material: productMaterial
-                    isDiscontinued: bool
-                    image: image
-                }                
-            }
-        }
-    }
+{
+	suppliers @repeat(min: 1, max: 1) {
+		companyName: company
+		contactName: findName
+		contactTitle: jobTitle
+		email: email(domain:"google.com")
+		city: city
+		state: state(useAbbr:true)
+		country: country
+		phone: phone
+		fax: phone        
+		products {
+			create @repeat(min: 5, max: 15){
+				name: productName
+                modelNumber:natural(max:999999)
+				unitPrice: price(symbol:"$" min:50 max:4000)
+				color: color
+				material: productMaterial
+				isDiscontinued: bool
+				image: image
+			}                
+		}
+	}
+}
 `;
 
 //generate JSON To variable
