@@ -13,14 +13,14 @@
 [![GitHub stars](https://img.shields.io/github/stars/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/stargazers) [![GitHub forks](https://img.shields.io/github/forks/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/network) [![GitHub issues](https://img.shields.io/github/issues/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/issues) [![GitHub license](https://img.shields.io/github/license/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer)
 
 
-####Install JSONFarmer
+#### Install JSONFarmer
 
 ```
 npm install jsonfarmer
 yarn add jsonfarmer
 ```
 
-####How to use JSONFarmer 　
+#### How to use JSONFarmer 　
 
 ```javascript
 let { generate, savetoFile } = require('jsonfarmer');
@@ -61,7 +61,7 @@ console.dir( generateJSON, { depth:null} );
 savetoFile(query, './suppliers.json');
 ```
 
-####Example Function
+#### Example Function
 
 ```graphql
 {
@@ -77,7 +77,7 @@ savetoFile(query, './suppliers.json');
     }
   }
 ```
-###Acknowledgements & Thanks
+### Acknowledgements & Thanks
 - graphql
 - graphql-anywhere;
 - fakerjs
