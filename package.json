@@ -1,9 +1,10 @@
 {
   "name": "jsonfarmer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "./src/index.js",
   "license": "MIT",
   "author": "Dandre Allen <dandre@graphflo.com>",
+  "description": "Easily generate large amounts of fake JSON with GraphQL syntax",
   "homepage": "https://github.com/graphflo/jsonfarmer",
   "repository": "graphflo/jsonfarmer",
   "keywords": [

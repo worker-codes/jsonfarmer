@@ -1,4 +1,4 @@
-# JSONFarmer easily generate large amounts of fake JSON with GraphQL
+# JSONFarmer easily generate large amounts of fake JSON with GraphQL syntax
 
 ### Features
 
@@ -8,6 +8,9 @@
 - Need some mock data to test your app.
 - Compatible in nodejs and browsers.
 - Using Faker.js and Chance.js
+
+### Demo
+[https://jsonfarmer.netlify.com/](https://jsonfarmer.netlify.com/)
 
 # JSONFarmer
 [![GitHub stars](https://img.shields.io/github/stars/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/stargazers) [![GitHub forks](https://img.shields.io/github/forks/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/network) [![GitHub issues](https://img.shields.io/github/issues/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer/issues) [![GitHub license](https://img.shields.io/github/license/graphflo/jsonfarmer)](https://github.com/graphflo/jsonfarmer)
