@@ -39,10 +39,10 @@ const query = /* GraphQL */ `
             fax: phone
             products {
                 create @repeat(min: 5, max: 15){
-                    name: commerceProductName
-                    unitPrice: commercePrice
-                    color: commerceColor
-                    material: commerceProductMaterial
+                    name: productName
+                    unitPrice: price
+                    color: color
+                    material: productMaterial
                     isDiscontinued: bool
                     image: image
                 }                
