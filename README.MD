@@ -43,7 +43,7 @@ const query = /* GraphQL */ `
 		products {
 			create @repeat(min: 5, max: 15){
 				name: productName
-                modelNumber:natural(max:999999)
+				modelNumber:natural(max:999999)
 				unitPrice: price(symbol:"$" min:50 max:4000)
 				color: color
 				material: productMaterial
