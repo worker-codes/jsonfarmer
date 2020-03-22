@@ -1186,11 +1186,7 @@ module.exports = {
         cat: "random",
         attrs: []
     },
-    // float: {
-    //     type: "faker",
-    //     cat: "random",
-    //     attrs: []
-    // },
+
     arrayElement: {
         type: "faker",
         cat: "random",

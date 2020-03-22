@@ -42,5 +42,5 @@ function save(query, saveDir) {
 module.exports = {
     // faker: faker,
     generate: generate,
-    save: save
+    savetoFile: save
 };
